@@ -1,0 +1,38 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">3f7a235c-cd2c-430d-8a94-c9b8b55ba913</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">d45b0aa7-fa27-4b91-3a40-b9f60d192781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Smoothing Face</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="9">
+        <item name="Description" type_name="gh_string" type_code="10">A face with set of constrains for smoothing operation</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">a3019f8f-64ae-4b8a-99be-d07ff7f33714</item>
+        <item name="Mapping" type_name="gh_int32" type_code="3">1</item>
+        <item name="Name" type_name="gh_string" type_code="10">Smoothing Face</item>
+        <item name="NickName" type_name="gh_string" type_code="10">SF</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">672af17d-5f34-4c5c-bcf7-bc7089f844cf</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>12048</X>
+              <Y>10138</Y>
+              <W>69</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>12092.58</X>
+              <Y>10148.81</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

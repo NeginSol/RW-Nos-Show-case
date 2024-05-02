@@ -1,0 +1,29 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="12">
+        <item name="Border" type_name="gh_int32" type_code="3">1</item>
+        <item name="Colour" type_name="gh_drawing_color" type_code="36">
+          <ARGB>150;170;135;255</ARGB>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+        <item name="ID" index="0" type_name="gh_guid" type_code="9">10e9af5d-978d-4e0c-9221-9777d9e88500</item>
+        <item name="ID" index="1" type_name="gh_guid" type_code="9">c3b9db2d-bb31-4988-bc4d-d49cb1fe9831</item>
+        <item name="ID" index="2" type_name="gh_guid" type_code="9">aa112a45-220f-414d-8f38-797c813ec00c</item>
+        <item name="ID" index="3" type_name="gh_guid" type_code="9">3b454c6c-80f9-48e5-851a-08dd07be9c29</item>
+        <item name="ID" index="4" type_name="gh_guid" type_code="9">8c47d2e9-25c4-4f03-a512-66ad07fced01</item>
+        <item name="ID_Count" type_name="gh_int32" type_code="3">5</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">d1c0c10a-b1b1-44f7-8f86-45aa58f5215d</item>
+        <item name="Name" type_name="gh_string" type_code="10">Group</item>
+        <item name="NickName" type_name="gh_string" type_code="10">extract brep faces for smoothing</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes" />
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

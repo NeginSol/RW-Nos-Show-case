@@ -1,0 +1,107 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">3fdf5f93-10e9-4e20-a9ec-d8956103a82f</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">d45b0aa7-fa27-4b91-3a40-b9f60d192781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Stiffness cost</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Makes the longer pass more stiff against the displacement.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">fd5593e2-8cb2-4cbf-aa43-faa146bbb2fe</item>
+        <item name="Name" type_name="gh_string" type_code="10">Stiffness cost</item>
+        <item name="NickName" type_name="gh_string" type_code="10">S.C.F.</item>
+      </items>
+      <chunks count="3">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>6500</X>
+              <Y>625</Y>
+              <W>92</W>
+              <H>49</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>6537</X>
+              <Y>650</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Weight of this cost function in optimization algorithm.(default is 1)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ecd82ced-edce-452c-a819-b498bb94291a</item>
+            <item name="Name" type_name="gh_string" type_code="10">Weight</item>
+            <item name="NickName" type_name="gh_string" type_code="10">W.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">c301196c-f667-4c19-b201-47f70d84c40c</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6502</X>
+                  <Y>627</Y>
+                  <W>20</W>
+                  <H>45</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6513.5</X>
+                  <Y>649.5</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Defines the cost function and its criteria for optimizing a printing path.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">0a2b2858-d2cd-4545-98e9-eaa83e34fef8</item>
+            <item name="Name" type_name="gh_string" type_code="10">Printing Path Objective</item>
+            <item name="NickName" type_name="gh_string" type_code="10">P.P.O.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6552</X>
+                  <Y>627</Y>
+                  <W>38</W>
+                  <H>45</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6571</X>
+                  <Y>649.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

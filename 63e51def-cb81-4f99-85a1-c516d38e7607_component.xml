@@ -1,0 +1,338 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">836df980-7acb-4df8-84dc-599b884e2464</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">d45b0aa7-fa27-4b91-3a40-b9f60d192781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Approximation settings</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="6">
+        <item name="Description" type_name="gh_string" type_code="10">Adjust the approximation settings</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">63e51def-cb81-4f99-85a1-c516d38e7607</item>
+        <item name="Method" type_name="gh_int32" type_code="3">2</item>
+        <item name="Name" type_name="gh_string" type_code="10">Approximation settings</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Approximation settings</item>
+      </items>
+      <chunks count="8">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>1580</X>
+              <Y>11811</Y>
+              <W>246</W>
+              <H>225</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>1683</X>
+              <Y>11897</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">The angle tolerance in radians. This is the maximum deviation of the arc endirections from the curve direction. When in doubt, use the document's model space angle tolerance.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ae0df0a8-19f8-422d-b28b-a599ad5d32da</item>
+            <item name="Name" type_name="gh_string" type_code="10">Angle threshold</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Angle threshold</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1584</X>
+                  <Y>11815</Y>
+                  <W>84</W>
+                  <H>27</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1627.5</X>
+                  <Y>11828.58</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">0.017453292519943295</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">This is the maximum deviation from arc midpoints to the curve.Defualt value is 1 millimiter</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">86cfcf07-99c1-443c-bebd-9946f5894c80</item>
+            <item name="Name" type_name="gh_string" type_code="10">Arc tolerance</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Arc tolerance</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1584</X>
+                  <Y>11842</Y>
+                  <W>84</W>
+                  <H>27</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1627.5</X>
+                  <Y>11855.75</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Minimum segment length. Leave zero to use the arc and angle tolerance only.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">1387f035-bb79-42fd-8da8-5aba471b5874</item>
+            <item name="Name" type_name="gh_string" type_code="10">MinSeg</item>
+            <item name="NickName" type_name="gh_string" type_code="10">MinSeg</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1584</X>
+                  <Y>11869</Y>
+                  <W>84</W>
+                  <H>27</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1627.5</X>
+                  <Y>11882.92</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">0</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="3">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Maximum segment length. Leave zero to use the arc and angle tolerance only.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">3ba1fd9c-4be0-4209-8461-e176c87c615e</item>
+            <item name="Name" type_name="gh_string" type_code="10">MaxSeg</item>
+            <item name="NickName" type_name="gh_string" type_code="10">MaxSeg</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1584</X>
+                  <Y>11896</Y>
+                  <W>84</W>
+                  <H>27</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1627.5</X>
+                  <Y>11910.08</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">0</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="4">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">When approximating using SPLine move this parameter is used for interpolation length.Default is 5mm</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">e4547a54-92cf-4fcf-bb26-e9417b33b25e</item>
+            <item name="Name" type_name="gh_string" type_code="10">Interpolation</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Interpolation</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1584</X>
+                  <Y>11923</Y>
+                  <W>84</W>
+                  <H>27</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1627.5</X>
+                  <Y>11937.25</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">5</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="5">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Planarity tolerance is used to check if the face is planar.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">dbf3c78f-6852-48f0-8c54-f7e7f8b9fb58</item>
+            <item name="Name" type_name="gh_string" type_code="10">Planarity</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Planarity</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+            <item name="UseDegrees" type_name="gh_bool" type_code="1">false</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1584</X>
+                  <Y>11950</Y>
+                  <W>84</W>
+                  <H>28</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1627.5</X>
+                  <Y>11964.42</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">0.01</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Holds the information used to approximate the cuves.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">7971fc23-650d-490e-bcf2-05a16dc763e2</item>
+            <item name="Name" type_name="gh_string" type_code="10">Approximation Settings</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Approximation Settings</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1698</X>
+                  <Y>11815</Y>
+                  <W>124</W>
+                  <H>163</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1760</X>
+                  <Y>11896.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

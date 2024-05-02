@@ -1,0 +1,58 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">deaf8653-5528-4286-807c-3de8b8dad781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Surface</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic surfaces</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">158f6e89-9eaf-475e-a81d-f26ecfbb80b8</item>
+        <item name="Name" type_name="gh_string" type_code="10">Surface</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Srf</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>16921</X>
+              <Y>10122</Y>
+              <W>50</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>16946.23</X>
+              <Y>10132.81</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="PersistentData">
+          <items count="1">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Branch" index="0">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Item" index="0">
+                  <items count="2">
+                    <item name="ON_Data" type_name="gh_bytearray" type_code="20">
+                      <stream length="1247">Y2BkYGD4DwQgGgR4mIBEeFBGZl6+c35ubn6ejkJYalFxZn6erbmesZmekbGxiZmeoZmxqaGOgnNpTklpUaptXmppSVFijo5CQGlSTmayd2plSH52ap6tqamRkYVhqqV5srmpqamxASvIFmGw4Xruqfm5qSVFlXpORakFLEBx9jKIPVyJRckZmWWpxim5nPkFqXl5pUVJxSwpiSWJIEUcHBxMICcKqDMwGAHp/Zz8PJzMQAY/iHglwMDA9KueieGeAMQ7v/8zMYhAveZ8KP+D1mIOt7k3ll86ck7LTOPfGqs/QPllULVGDA0MDrbMEI4AyEkg54JM28uAaZqk4Pq4QO4rgvv/MQg0Myp98JKqFAeZ1gqVF2CCMpigGBV8sMcQgojvRxdB1sulKWwV92uNA6Z5CDkY3/bn7Lj/9UwNMP6g84zc6nfS8r8Wgj2D7ngYH6YmqPjnzUHtGeSYQXc8hodzflgNas8gxwy6GLq+3Gez9iJ7xrrtGisoI9Viy0hnSfDhVJgPmWngQ+Tomqn9/+33A/scFD3nnJX9sdDhcVTb0z3PuhzMJpvOvyuxCUOco8uJG1v0DRrPIUcfLk/AxJPD1etmMSw5cFrFNH2jSo9DZ8tsrUHpOWiMHYAKNSB7Dt0T9ybLx7F5H8AQf7l586FB6TlojKF4DpcncCXXN4++6WHLiEbQql2AEcnHkoyYPhY/keD+GMnHqzX69oF8/BCXj2lds8HSMagEweVrXKFEarqf0Kwpjhx6Kob37UChdxLmeRYoA5dDYA5nRvIAKJBxOYQJSQ1ygOByIBNULXIAgezCFQCwyEF2j5Bu6zSQp2CxD/cUOkCujmHJBp86bGpgsQdzNC5zkEsrmOewZXZmLAGAro4ZycPoeQomzsiAGijo6mZn7RIFBxLUIqyBhN5eYUSicQUqLr3EAvQARA5g5IABsVkJmIWrNicE0LM8crZFTm0gN7ARMIvccECOZBCA+QVdHD2isQFyw2H60iZLUCLRhPIFYBEDi3xYhMBSLQgUn9/ZA9JkCOULIqcaQiDwQ9Nj9LIBvRCElTGwMgBk2XpoEDCCiv15UA5ysf/kynU/95eXBfc/hRT7ujulY0DFfhpUrSkbAzHFPIKPHq+wMIaJ+x9/81JKeLPDwWMTXFlYFY4eNQ13iY9gcpM4yO+6UzXRBZgH7ZHwfiSMIgbptgK9CKuSRWFhiS08dZ1lXj8yk8KonAQIhHu7y3MvifBtYH3gUDh7BgSe2DOA7RaFKoPFNwtM2c1eS86WSPPTMEkWRgZmViZGFg8g20V050SG/ezfXN8c4Hf9CPS+YMxfV115psPbdWNcjIFBcYNF4WgvMCjeAoMIpgbEhqkBsWFqQAbOeBWgBXbGoR+sNuf/1tvH9rcsgrGRxYlRYwBk1y+2PIUeEtCgg0UCjM1gjyqGHSQA8eP7kXtxKoCkkokOqHxEqoGJo3auJjpgdLaAkbIEKVKwpYW0auZ/EBZmY0Vp/sK2L7MXHYDxlx7q2R/3+739lVi7AgmzhfuLKvoW9peGwuWh4vYwda7fBf9fis91QDcXFXywB7lLa51uB5ByNDgUg9z2kL7PuhTkDXgh3vue6RKIvnfy+FZkhdz4LRkFo2AUjIJRMApGwSgYBaNgFIyCUTAKRsEoGAUDCgA=</stream>
+                    </item>
+                    <item name="RefID" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

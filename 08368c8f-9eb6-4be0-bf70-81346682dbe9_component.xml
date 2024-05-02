@@ -1,0 +1,33 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="16">
+        <item name="Border" type_name="gh_int32" type_code="3">1</item>
+        <item name="Colour" type_name="gh_drawing_color" type_code="36">
+          <ARGB>150;240;252;0</ARGB>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+        <item name="ID" index="0" type_name="gh_guid" type_code="9">51b74e3b-68bd-4f49-ba8d-96dc1c13a5b4</item>
+        <item name="ID" index="1" type_name="gh_guid" type_code="9">07b6f27c-957c-4282-8f49-29e8d5833115</item>
+        <item name="ID" index="2" type_name="gh_guid" type_code="9">a840cc0a-028c-4a56-b3a5-d4ee9029cb2d</item>
+        <item name="ID" index="3" type_name="gh_guid" type_code="9">5e4bc0f9-d394-40f4-9d32-a8da02fdf604</item>
+        <item name="ID" index="4" type_name="gh_guid" type_code="9">fa7e3550-45af-411a-9d2f-a9a73731ff29</item>
+        <item name="ID" index="5" type_name="gh_guid" type_code="9">390d203d-bedc-4ca8-a5af-c8a3d175b100</item>
+        <item name="ID" index="6" type_name="gh_guid" type_code="9">9723babd-b4df-4426-8fb2-943aaa3cae0b</item>
+        <item name="ID" index="7" type_name="gh_guid" type_code="9">d0708edc-0bf0-4b4e-86ed-1149803e9527</item>
+        <item name="ID" index="8" type_name="gh_guid" type_code="9">7f6d4ce7-a91c-4604-88bc-aefb56f6a9de</item>
+        <item name="ID_Count" type_name="gh_int32" type_code="3">9</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">08368c8f-9eb6-4be0-bf70-81346682dbe9</item>
+        <item name="Name" type_name="gh_string" type_code="10">Group</item>
+        <item name="NickName" type_name="gh_string" type_code="10"></item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes" />
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

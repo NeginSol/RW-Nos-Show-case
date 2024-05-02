@@ -1,0 +1,36 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">b6236720-8d88-4289-93c3-ac4c99f9b97b</item>
+    <item name="Name" type_name="gh_string" type_code="10">Relay</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="8">
+        <item name="Access" type_name="gh_int32" type_code="3">2</item>
+        <item name="Description" type_name="gh_string" type_code="10">A wire relay object</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">0f7a226a-770c-4b16-9cda-fc9926d72df6</item>
+        <item name="Name" type_name="gh_string" type_code="10">Relay</item>
+        <item name="NickName" type_name="gh_string" type_code="10">NOS Aeditive Robot 1</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">77cc5fad-1cd1-4baa-9f75-3b0a49913097</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>1131</X>
+              <Y>4658</Y>
+              <W>126</W>
+              <H>16</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>1194</X>
+              <Y>4666</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

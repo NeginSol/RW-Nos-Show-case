@@ -1,0 +1,142 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">424eb433-2b3a-4859-beaf-804d8af0afd7</item>
+    <item name="Name" type_name="gh_string" type_code="10">Control Points</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Extract the nurbs control points and knots of a curve.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">b5753283-87c1-4924-916f-fc3bbdbd2e5a</item>
+        <item name="Name" type_name="gh_string" type_code="10">Control Points</item>
+        <item name="NickName" type_name="gh_string" type_code="10">CP</item>
+      </items>
+      <chunks count="5">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>9777</X>
+              <Y>614</Y>
+              <W>84</W>
+              <H>64</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>9824</X>
+              <Y>646</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Description" type_name="gh_string" type_code="10">Curve to evaluate</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ca663925-cc78-4bfe-adb9-d8d1c83ecb46</item>
+            <item name="Mapping" type_name="gh_int32" type_code="3">2</item>
+            <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">1cf17df5-d709-46e0-b43f-53f5c4bd7ce2</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>9779</X>
+                  <Y>616</Y>
+                  <W>30</W>
+                  <H>60</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>9803.5</X>
+                  <Y>646</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Control points of the Nurbs-form.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">42823ba4-c202-41f7-b48a-b275be63311f</item>
+            <item name="Name" type_name="gh_string" type_code="10">Points</item>
+            <item name="NickName" type_name="gh_string" type_code="10">P</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>9839</X>
+                  <Y>616</Y>
+                  <W>20</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>9849</X>
+                  <Y>626</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Weights of control points.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">f67021cc-41e1-4835-a0de-b534108c6f34</item>
+            <item name="Name" type_name="gh_string" type_code="10">Weights</item>
+            <item name="NickName" type_name="gh_string" type_code="10">W</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>9839</X>
+                  <Y>636</Y>
+                  <W>20</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>9849</X>
+                  <Y>646</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="2">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Knot vector of Nurbs-form.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">5401c338-bad3-4381-897f-30d072d75c97</item>
+            <item name="Name" type_name="gh_string" type_code="10">Knots</item>
+            <item name="NickName" type_name="gh_string" type_code="10">K</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>9839</X>
+                  <Y>656</Y>
+                  <W>20</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>9849</X>
+                  <Y>666</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

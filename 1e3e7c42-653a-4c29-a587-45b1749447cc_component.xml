@@ -1,0 +1,353 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">701d2db5-1fa5-4646-9996-32373b9a56d8</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">d45b0aa7-fa27-4b91-3a40-b9f60d192781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Voxelization of Brep</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Create voxel space using multiple breps and borders</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">1e3e7c42-653a-4c29-a587-45b1749447cc</item>
+        <item name="Name" type_name="gh_string" type_code="10">Voxelization of Brep</item>
+        <item name="NickName" type_name="gh_string" type_code="10">V.B.</item>
+      </items>
+      <chunks count="9">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>6482</X>
+              <Y>1297</Y>
+              <W>93</W>
+              <H>144</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>6531</X>
+              <Y>1369</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Breps to be added to voxel space.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">5c5e6242-d6d6-4417-8ac1-0f656c3353aa</item>
+            <item name="Name" type_name="gh_string" type_code="10">Breps</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Obj.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">4b613ce6-a307-439d-b2e4-c68d384d9792</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6484</X>
+                  <Y>1299</Y>
+                  <W>32</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6501.5</X>
+                  <Y>1309</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Borders to be added to voxel space.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ed229a76-a92b-4445-903e-17a352d93afc</item>
+            <item name="Name" type_name="gh_string" type_code="10">Borders</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Br.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">7f9a7c8b-cb92-4f85-9a7a-39a2efb8607a</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6484</X>
+                  <Y>1319</Y>
+                  <W>32</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6501.5</X>
+                  <Y>1329</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">The maximum size of the voxels in millimiters. Voxels that are far from corners and borders of cross sections are created in this size. (default is 60 mm)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">b5ed3e64-509d-4a7f-81ce-b30cb0445a13</item>
+            <item name="Name" type_name="gh_string" type_code="10">Maximum</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Max.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">633ce490-00f1-4cb0-ba2b-157e706ecb13</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6484</X>
+                  <Y>1339</Y>
+                  <W>32</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6501.5</X>
+                  <Y>1349</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">60</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="3">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">The minimum size of the voxels in millimiters.Voxels that are near the corners and borders of cross sections are created in this size. (default is 25 mm)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">bcd6df58-46f1-40e7-9211-5523b5327245</item>
+            <item name="Name" type_name="gh_string" type_code="10">Minimum</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Min.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">5a0270d4-a94c-4c2e-8641-537ad798ab7a</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6484</X>
+                  <Y>1359</Y>
+                  <W>32</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6501.5</X>
+                  <Y>1369</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">25</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="4">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Controls the adaptive subdivision around the borders. Higher values starts the subdivision further from the border.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ef39a6ca-09ee-48f2-94c3-acc6cda8ef40</item>
+            <item name="Name" type_name="gh_string" type_code="10">Alpha</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Alph.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">91acfa23-f40c-4db4-a3fd-a43e915b7948</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6484</X>
+                  <Y>1379</Y>
+                  <W>32</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6501.5</X>
+                  <Y>1389</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="5">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">A factor to adjust the print height around the corners. Setting this value greater than 1 force the algorithm to print more around the corners.  (default is 1.1)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ec40677a-dac4-4a60-8e87-18a3dea21a31</item>
+            <item name="Name" type_name="gh_string" type_code="10">Corner</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Cr.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">5a15117a-ca5c-42fb-bd16-9723bc9113ec</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6484</X>
+                  <Y>1399</Y>
+                  <W>32</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6501.5</X>
+                  <Y>1409</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">1.1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="6">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">A factor to adjust the print height along the borders. Setting this value greater than 1 force the algorithm to print more along the borders.  (default is 1)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">0cdc7558-666c-4d98-85ab-3117e78ef47e</item>
+            <item name="Name" type_name="gh_string" type_code="10">Border</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Br.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6484</X>
+                  <Y>1419</Y>
+                  <W>32</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6501.5</X>
+                  <Y>1429</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">1</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="9">
+            <item name="Description" type_name="gh_string" type_code="10">Represent a 2d voxelized space that each of its voxel may have sub voxel space.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">4139645f-5407-4b32-88ed-c96bedc5fdf4</item>
+            <item name="Name" type_name="gh_string" type_code="10">Voxel space</item>
+            <item name="NickName" type_name="gh_string" type_code="10">V.S.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+            <item name="Tolerance" type_name="gh_double" type_code="6">0</item>
+            <item name="_color" type_name="gh_int32" type_code="3">1</item>
+            <item name="_label" type_name="gh_int32" type_code="3">3</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>6546</X>
+                  <Y>1299</Y>
+                  <W>27</W>
+                  <H>140</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>6559.5</X>
+                  <Y>1369</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

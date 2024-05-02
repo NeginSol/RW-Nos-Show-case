@@ -1,0 +1,174 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">dad6c767-6775-4b33-8b99-78a6df463625</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">d45b0aa7-fa27-4b91-3a40-b9f60d192781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Parallel Smoothing</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="9">
+        <item name="Description" type_name="gh_string" type_code="10">Attempt to smooth the printed object by removing material in parallel passes.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">b139b79f-681c-4eb6-9760-cda6aeda9911</item>
+        <item name="Name" type_name="gh_string" type_code="10">Parallel Smoothing</item>
+        <item name="NickName" type_name="gh_string" type_code="10">PS</item>
+        <item name="Settings" type_name="gh_bool" type_code="1">false</item>
+        <item name="Settings.Clean the mill" type_name="gh_bool" type_code="1">false</item>
+        <item name="Settings.Safe move" type_name="gh_int32" type_code="3">0</item>
+        <item name="Settings.Strategy" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="6">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>17588</X>
+              <Y>14563</Y>
+              <W>128</W>
+              <H>247</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>17649</X>
+              <Y>14607</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Holds the information used to approximate the cuves.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">008ca2ab-a47a-4d3c-82c2-b655d837c6ce</item>
+            <item name="Name" type_name="gh_string" type_code="10">Approximation Settings</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Approx</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">ebdfa0ce-1ea7-4996-a532-8386fab1bf01</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>17592</X>
+                  <Y>14567</Y>
+                  <W>42</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>17614.5</X>
+                  <Y>14577</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">The plane above the part which the tool can move without colliding with the part and other objects</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">0b713b13-0043-4a9f-851b-00f68ed0fb78</item>
+            <item name="Name" type_name="gh_string" type_code="10">Safe_Plane</item>
+            <item name="NickName" type_name="gh_string" type_code="10">SP</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">ef775a67-7ed9-4fd0-9273-fffa3b35c4d6</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>17592</X>
+                  <Y>14587</Y>
+                  <W>42</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>17614.5</X>
+                  <Y>14597</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">A face with set of constrains for smoothing operation</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">5f6adc45-29f3-4e0a-845e-2674f161f89c</item>
+            <item name="Name" type_name="gh_string" type_code="10">Smoothing Face</item>
+            <item name="NickName" type_name="gh_string" type_code="10">SF</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">76486fc3-1bdc-4b7a-bb98-4aacecd8dcb7</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>17592</X>
+                  <Y>14607</Y>
+                  <W>42</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>17614.5</X>
+                  <Y>14617</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="3">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Defines the parameters for each layer of smoothing or cutting operation</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">baf912e0-afcb-4661-8f6b-0f0210f9412e</item>
+            <item name="Name" type_name="gh_string" type_code="10">Smoothing parameters</item>
+            <item name="NickName" type_name="gh_string" type_code="10">SP</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">fd152d6c-9586-433a-94d5-47f2fb1aa256</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>17592</X>
+                  <Y>14627</Y>
+                  <W>42</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>17614.5</X>
+                  <Y>14637</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">A set of commands creating a tool path</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">850ee429-1312-4982-9391-04d3f3e6ac8d</item>
+            <item name="Name" type_name="gh_string" type_code="10">Command Group</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>17699</X>
+                  <Y>14567</Y>
+                  <W>17</W>
+                  <H>80</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>17672.5</X>
+                  <Y>14607</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

@@ -1,0 +1,38 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">9c8c3ad5-1d43-4f67-9e92-334edc0d2155</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">d45b0aa7-fa27-4b91-3a40-b9f60d192781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Obstacle</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="9">
+        <item name="Description" type_name="gh_string" type_code="10">Represents an obstacle in tool path</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">94a7040b-803c-4fb9-a3e5-8a180fc03253</item>
+        <item name="Name" type_name="gh_string" type_code="10">Obstacle</item>
+        <item name="NickName" type_name="gh_string" type_code="10">chamfers</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">d0ffe172-c6b1-44f3-a995-c07f49d2f4de</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+        <item name="WireDisplay" type_name="gh_int32" type_code="3">2</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>10711</X>
+              <Y>10353</Y>
+              <W>57</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>10739.75</X>
+              <Y>10363.6</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

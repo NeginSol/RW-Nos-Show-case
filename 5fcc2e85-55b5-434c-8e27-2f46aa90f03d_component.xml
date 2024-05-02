@@ -1,0 +1,167 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">774e4712-482f-4d29-b035-00a602ca888c</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">d45b0aa7-fa27-4b91-3a40-b9f60d192781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Tool Path Simulation</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Simulation of the tool path</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">5fcc2e85-55b5-434c-8e27-2f46aa90f03d</item>
+        <item name="Name" type_name="gh_string" type_code="10">Tool Path Simulation</item>
+        <item name="NickName" type_name="gh_string" type_code="10">TPS</item>
+        <item name="showHistory" type_name="gh_bool" type_code="1">false</item>
+        <item name="showTrace" type_name="gh_bool" type_code="1">false</item>
+      </items>
+      <chunks count="5">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>12753</X>
+              <Y>1068</Y>
+              <W>110</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>12820</X>
+              <Y>1090</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="12">
+            <item name="Description" type_name="gh_string" type_code="10">Contains commands that moves and controls the end effector of the robot.</item>
+            <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">d8d6b78e-69b9-474d-9344-c442f14b904b</item>
+            <item name="Name" type_name="gh_string" type_code="10">Tool path</item>
+            <item name="NickName" type_name="gh_string" type_code="10">ToolPath</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">8959be69-57cc-4e20-9750-5648e2980a16</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+            <item name="colorByVelocity" type_name="gh_bool" type_code="1">false</item>
+            <item name="isInternalized" type_name="gh_bool" type_code="1">false</item>
+            <item name="showSpeed" type_name="gh_bool" type_code="1">false</item>
+            <item name="showStrips" type_name="gh_bool" type_code="1">true</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>12755</X>
+                  <Y>1070</Y>
+                  <W>50</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>12781.5</X>
+                  <Y>1080</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">The time in milli seconds to evaluate the tool path</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">7906e271-7834-4ec0-bac4-4bfc69a2943f</item>
+            <item name="Name" type_name="gh_string" type_code="10">Time</item>
+            <item name="NickName" type_name="gh_string" type_code="10">t</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">0da810ea-43d4-40a7-8ad6-2d6cb17c841b</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>12755</X>
+                  <Y>1090</Y>
+                  <W>50</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>12781.5</X>
+                  <Y>1100</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_double" type_code="6">0</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">The tool position / orientation</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">f976983e-b74d-4ffa-b59f-01117e671c2c</item>
+            <item name="Name" type_name="gh_string" type_code="10">Tool Plane</item>
+            <item name="NickName" type_name="gh_string" type_code="10">TP</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>12835</X>
+                  <Y>1070</Y>
+                  <W>26</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>12848</X>
+                  <Y>1080</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Wirst Plane</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">3d3485fe-fda8-4634-b55a-b381a5bb1798</item>
+            <item name="Name" type_name="gh_string" type_code="10">Wirst Plane</item>
+            <item name="NickName" type_name="gh_string" type_code="10">WP</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>12835</X>
+                  <Y>1090</Y>
+                  <W>26</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>12848</X>
+                  <Y>1100</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

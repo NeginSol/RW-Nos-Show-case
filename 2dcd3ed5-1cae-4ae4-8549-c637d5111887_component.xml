@@ -1,0 +1,59 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">d5967b9f-e8ee-436b-a8ad-29fdcecf32d5</item>
+    <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic curves</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">2dcd3ed5-1cae-4ae4-8549-c637d5111887</item>
+        <item name="Name" type_name="gh_string" type_code="10">Curve</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Crv</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>22429</X>
+              <Y>5667</Y>
+              <W>50</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>22454.74</X>
+              <Y>5677.178</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="PersistentData">
+          <items count="1">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Branch" index="0">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Item" index="0">
+                  <items count="3">
+                    <item name="EdgeIndex" type_name="gh_int32" type_code="3">-1</item>
+                    <item name="ON_Data" type_name="gh_bytearray" type_code="20">
+                      <stream length="643">Y2BkYGD4DwQgGgR4mIBEeFBGZl6+c35ubn6ejkJYalFxZn6erbmesZmekbGxiZmeoZmxqaGOgnNpTklpUaptXmppSVFijo5CQGlSTmayd2plSH52ap6tqamRkYVhqqV5srmpqamxASvIFhmw4Xruqfm5qSVFlXoB+TmVOZl5qc6lRWWpLEAF7GUQC7kSi5IzMstSjVNyOfMLUvPySouSillSEksSQYo4ODiYQG4VUGdgMALS+zn5eTiZgQx+EBEKJJh+1TMxeDJD/PX7PxODCNSPz65c93N/eVlw/1MGgWZGpQ9+c3bf/gOUF4SqFZBgQAW8u8UdgJRD+kx+B6gSEK1QsRddXAREN1TvQheXANEPtnWLoYnLgM3prEEXVwCLS6mhiyuB6bny6OIqYPWRsujiamB6vgy6uAbYPQvk0MW1QPSC8xjm6IDohKUPRdHE9cD8S7fRxQ3A4ZC/E13cEOzOqh3o4sZg9XN3o4ubgPmbb6CLm4JpnUfo4mZg+uRfSPgbG3NCxc2htASauAXYX5sXo8eXJTh8nPvRxa3ANP8EdHFrMN8qEyGOnIbuzD2lB0ozEx85+zAC08iR/DXnL2tLOKhn3Jr9QVvG4XIQR9opcQWHp9Ib2c+KKzlMYD0ZeVZcxWGfrl3SWXE1h/eJ2xadFddwuPQrbe1ZcS0H2aYLO9ZL6DjMtlt6faOEnsNqWcM7tTwGDhuWdD2u5TF02GPwnquOx9ihbxNP5QweEwfezD1us3lMHY4lZ2ZJ5Zs5HHmxfKJUvrlDw+9U373bLRxeRn6NPLXd0uHP9n9xp7ZbOTw6V175c7u1Ayg/9NZ3SP2vZ2qA+YWbYRSMglEwCogFAA==</stream>
+                    </item>
+                    <item name="RefID" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

@@ -1,0 +1,38 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">2b69bf71-4e69-43aa-b7be-4f6ce7e45bef</item>
+    <item name="Name" type_name="gh_string" type_code="10">Quick Graph</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="9">
+        <item name="Access" type_name="gh_int32" type_code="3">1</item>
+        <item name="Description" type_name="gh_string" type_code="10">Display a set of y-values as a graph</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">05a14f09-4ae5-4c3d-bb46-746c18fcf2ee</item>
+        <item name="Name" type_name="gh_string" type_code="10">Quick Graph</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Graph</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SortOrder" type_name="gh_int32" type_code="3">0</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">49d01b33-245a-440d-a68d-ea83de01389d</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="3">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>7195</X>
+              <Y>874</Y>
+              <W>308</W>
+              <H>179</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>7195.709</X>
+              <Y>874.9924</Y>
+            </item>
+            <item name="SelectedIndex" type_name="gh_int32" type_code="3">-1</item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

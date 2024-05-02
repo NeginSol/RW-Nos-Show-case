@@ -1,0 +1,93 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">f31d8d7a-7536-4ac8-9c96-fde6ecda4d0a</item>
+    <item name="Name" type_name="gh_string" type_code="10">Aktion Position</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="8">
+        <item name="ClusterDocument" type_name="gh_bytearray" type_code="20">
+          <stream length="2276">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</stream>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10"></item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="IconOverride" type_name="gh_drawing_bitmap" type_code="37">
+          <bitmap length="836">iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvAAADrwBlbxySQAAAuZJREFUSEut1WtIU2EYB3ArzUq8TEo7LruAVpgLDCwXbqaps6AijT6YpZlWXgq7SVNjUV4i/FBqmJYXzEVlealEEWtdZWE0Ei9lF8Scq9S+2DeDp+c57QhnvIPs9MKPwdnz/v/s3OZgs2ZZzbFynCFhn5AjWkKwM3JB7sgDyf4SzdIe2ksZQtH0mq1ZvZDbr+ImD4RxYGs9N1eENZMUyk2u8HJRYJYnmkeZFEyLmpwSQrwzdbGrRgYq4sBWXoS3CGsmJ87fHKPwzMUsP0S/ygnxi5oWJKs5Y3Nu+BRrc77GR4Q106RVTcUrFxsxawOSo/mIX45Ra2WBqWHyn73lsczNxdt8RVgztDcFM3xlTrsxcyWia8KfHud45aL8CwkKC2sjKYtbLsKaIUUJAV81ClkpZq5DXlTAn54kNTdasDcILh8KgbJ0JZRnbITKo6FQlaWC2uNqyI7wgdORcsiJkkNe9BJoytsM93VR8PBsNLSf10BHQQw8LtoCd7WbYJ/aexgzVWgpFdDt5Ep3wY/+DpjobYOJnlYYf/sAxk3NMPamEb6/boBufSG8qjsHxloddFXlguVlDVieX4fRZ5VgfloOZsMVGHlUAiOdl/g7CjM1yF8ocKeDFPzhZiZTY0awCGuGDLdfFAq2owChwIMOjpmaYBCHWFqPKUVYM2SotUAo2IkCRQXfuu/Ae30GU2e2SoQ1Qz636ISCWEQPHf8O4Qssxnp4V5/OVJ0WDAatevqTNUM+3tMyC2R00PyiBgZupNmlPxUu+mQZvH3CfsGXJxXQV3dYkn79EfsFQ50l0Ft7UDK7BZ/aiqGnOlUyuwWDLflgupYsmW3B9G3a13AGuq8mSma3wFR/ErpK90hmLRA/aClq7pehLAUMxbskaSvcAZSFmaJXhWvWVr9b1Pw/JG5a1oCZkYh/2dHrmv55fFAQoi+onX4inceZoD20lzIoizL//B8jN+sBal2D6AL9C9pLGZjl4PYbTZPyRBrE+OIAAAAASUVORK5CYII=</bitmap>
+        </item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">a35dde97-1467-49c6-9c4d-17cf2b37f635</item>
+        <item name="Name" type_name="gh_string" type_code="10">Aktion Position</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Aktion Pos</item>
+        <item name="PreviewDocument" type_name="gh_bool" type_code="1">false</item>
+      </items>
+      <chunks count="4">
+        <chunk name="Author">
+          <items count="5">
+            <item name="Address" type_name="gh_string" type_code="10">Oststraße 58
+22844 Norderstedt</item>
+            <item name="Company" type_name="gh_string" type_code="10">aeditive GmbH</item>
+            <item name="Copyright" type_name="gh_string" type_code="10">aeditive GmbH</item>
+            <item name="Name" type_name="gh_string" type_code="10">Hendrik Lindemann</item>
+            <item name="Website" type_name="gh_string" type_code="10">www.aeditive.de</item>
+          </items>
+        </chunk>
+        <chunk name="ParamMap">
+          <items count="3">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+            <item name="Key" index="0" type_name="gh_guid" type_code="9">9ddba9af-ccd5-4ca6-8b1d-280de429dffc</item>
+            <item name="Value" index="0" type_name="gh_guid" type_code="9">ed0e62c8-2233-48a9-b41c-8359e001cd7c</item>
+          </items>
+        </chunk>
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>16364</X>
+              <Y>1311</Y>
+              <W>93</W>
+              <H>84</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>16378</X>
+              <Y>1353</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="ParameterData">
+          <items count="3">
+            <item name="InputCount" type_name="gh_int32" type_code="3">0</item>
+            <item name="OutputCount" type_name="gh_int32" type_code="3">1</item>
+            <item name="OutputId" index="0" type_name="gh_guid" type_code="9">9fe6fd0d-de26-473a-bb30-5ec95cb4775a</item>
+          </items>
+          <chunks count="1">
+            <chunk name="OutputParam" index="0">
+              <items count="7">
+                <item name="Access" type_name="gh_int32" type_code="3">1</item>
+                <item name="Description" type_name="gh_string" type_code="10">KUKA|prc command containing an AXIS movement</item>
+                <item name="InstanceGuid" type_name="gh_guid" type_code="9">9ddba9af-ccd5-4ca6-8b1d-280de429dffc</item>
+                <item name="Name" type_name="gh_string" type_code="10">KUKA|prc Command</item>
+                <item name="NickName" type_name="gh_string" type_code="10">Aktion Pos</item>
+                <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+                <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Attributes">
+                  <items count="2">
+                    <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                      <X>16393</X>
+                      <Y>1313</Y>
+                      <W>62</W>
+                      <H>80</H>
+                    </item>
+                    <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                      <X>16424</X>
+                      <Y>1353</Y>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

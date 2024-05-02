@@ -1,0 +1,87 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">4bc9dbbf-fec8-4348-a3af-e33e7edc8e7b</item>
+    <item name="Name" type_name="gh_string" type_code="10">Mesh Join</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Join a set of meshes into a single mesh</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">3f417b85-fbe4-429f-9e47-d35a444d32c6</item>
+        <item name="Name" type_name="gh_string" type_code="10">Mesh Join</item>
+        <item name="NickName" type_name="gh_string" type_code="10">MJoin</item>
+      </items>
+      <chunks count="3">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>1040</X>
+              <Y>3133</Y>
+              <W>71</W>
+              <H>54</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>1074</X>
+              <Y>3160</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Meshes to join</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">78fd5a27-17a1-481c-aa0e-383330e0d4c2</item>
+            <item name="Name" type_name="gh_string" type_code="10">Meshes</item>
+            <item name="NickName" type_name="gh_string" type_code="10">M</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">fb194939-61c1-41a1-a0b3-139e47edc1a3</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1042</X>
+                  <Y>3135</Y>
+                  <W>17</W>
+                  <H>50</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1052</X>
+                  <Y>3160</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Mesh join result</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">4c699b1e-3e3b-4eb0-a032-ff01df27d8a8</item>
+            <item name="Name" type_name="gh_string" type_code="10">Mesh</item>
+            <item name="NickName" type_name="gh_string" type_code="10">M</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>1089</X>
+                  <Y>3135</Y>
+                  <W>20</W>
+                  <H>50</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>1099</X>
+                  <Y>3160</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

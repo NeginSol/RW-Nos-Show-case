@@ -1,0 +1,136 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">89279099-927f-422d-ad72-547087e5058f</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">d45b0aa7-fa27-4b91-3a40-b9f60d192781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Multi-Objective Optimizer</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="6">
+        <item name="Description" type_name="gh_string" type_code="10">This optimizer uses gradient descent algorithm  to optimize the tool path for multiple objectives.</item>
+        <item name="External axis" type_name="gh_int32" type_code="3">0</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">07b6f27c-957c-4282-8f49-29e8d5833115</item>
+        <item name="Name" type_name="gh_string" type_code="10">Multi-Objective Optimizer</item>
+        <item name="NickName" type_name="gh_string" type_code="10">M.O.O.</item>
+      </items>
+      <chunks count="4">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>13642</X>
+              <Y>1229</Y>
+              <W>127</W>
+              <H>117</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>13700</X>
+              <Y>1261</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">An objective to be considered while optimizing the tool-path </item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ec8d7eac-a2e4-49f7-939f-ee0758c4d015</item>
+            <item name="Name" type_name="gh_string" type_code="10">Tool-path Objective</item>
+            <item name="NickName" type_name="gh_string" type_code="10">T.P.obj</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">056a4a43-28a2-4f86-9197-453de2c9c8fb</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>13646</X>
+                  <Y>1233</Y>
+                  <W>39</W>
+                  <H>27</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>13667</X>
+                  <Y>1246.75</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Maximum iterations.(default is 10)</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">fb3d9d4b-18c3-44fd-bd83-fb6927529098</item>
+            <item name="Name" type_name="gh_string" type_code="10">Iterations</item>
+            <item name="NickName" type_name="gh_string" type_code="10">I.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">a840cc0a-028c-4a56-b3a5-d4ee9029cb2d</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="2">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>13646</X>
+                  <Y>1260</Y>
+                  <W>39</W>
+                  <H>28</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>13667</X>
+                  <Y>1274.25</Y>
+                </item>
+              </items>
+            </chunk>
+            <chunk name="PersistentData">
+              <items count="1">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Branch" index="0">
+                  <items count="2">
+                    <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                    <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Item" index="0">
+                      <items count="1">
+                        <item name="number" type_name="gh_int32" type_code="3">10</item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Method for optimizing the tool path.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">2b5ef3bf-7036-4290-a2ce-17cd482d866d</item>
+            <item name="Name" type_name="gh_string" type_code="10">Tool-path optimization method</item>
+            <item name="NickName" type_name="gh_string" type_code="10">T.P.O.M.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>13715</X>
+                  <Y>1233</Y>
+                  <W>50</W>
+                  <H>55</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>13740</X>
+                  <Y>1260.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

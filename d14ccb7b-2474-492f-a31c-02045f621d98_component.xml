@@ -1,0 +1,57 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">00027467-0d24-4fa7-b178-8dc0ac5f42ec</item>
+    <item name="Name" type_name="gh_string" type_code="10">Value List</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="9">
+        <item name="Description" type_name="gh_string" type_code="10">Provides a list of preset values to choose from</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">d14ccb7b-2474-492f-a31c-02045f621d98</item>
+        <item name="ListCount" type_name="gh_int32" type_code="3">4</item>
+        <item name="ListMode" type_name="gh_int32" type_code="3">3</item>
+        <item name="Name" type_name="gh_string" type_code="10">Value List</item>
+        <item name="NickName" type_name="gh_string" type_code="10">List</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="5">
+        <chunk name="ListItem" index="0">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">0</item>
+            <item name="Name" type_name="gh_string" type_code="10">no Pallet</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="1">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">1</item>
+            <item name="Name" type_name="gh_string" type_code="10">small Pallet</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="2">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">2</item>
+            <item name="Name" type_name="gh_string" type_code="10">big Pallet</item>
+          </items>
+        </chunk>
+        <chunk name="ListItem" index="3">
+          <items count="2">
+            <item name="Expression" type_name="gh_string" type_code="10">3</item>
+            <item name="Name" type_name="gh_string" type_code="10">Rotation Pallete</item>
+          </items>
+        </chunk>
+        <chunk name="Attributes">
+          <items count="1">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>707</X>
+              <Y>4820</Y>
+              <W>155</W>
+              <H>22</H>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

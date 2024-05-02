@@ -1,0 +1,224 @@
+<chunk name="Object" index="0">
+  <items count="3">
+    <item name="GUID" type_name="gh_guid" type_code="9">03675c75-491e-476b-8f03-25885ed06e2a</item>
+    <item name="Lib" type_name="gh_guid" type_code="9">d45b0aa7-fa27-4b91-3a40-b9f60d192781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Cross section generator</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Generates cross sections from the geometry. The cross sections will be used to create shotcrete toolpath.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">24a88f80-7dff-4dbd-b685-8dfc15f95636</item>
+        <item name="Name" type_name="gh_string" type_code="10">Cross section generator</item>
+        <item name="NickName" type_name="gh_string" type_code="10">C.S.G</item>
+      </items>
+      <chunks count="8">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>4314</X>
+              <Y>970</Y>
+              <W>90</W>
+              <H>124</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>4360</X>
+              <Y>1032</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Objects to create cross sections</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">6e810d5f-b2eb-4f7f-87c8-f7f70bd987fc</item>
+            <item name="Name" type_name="gh_string" type_code="10">Objects</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Obj</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">4b613ce6-a307-439d-b2e4-c68d384d9792</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>4316</X>
+                  <Y>972</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>4332</X>
+                  <Y>982</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Controls the height and width of the shotcrete stroke in each layer.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">e119323d-e9df-4d8a-98ab-8777fd9ee593</item>
+            <item name="Name" type_name="gh_string" type_code="10">Layer function</item>
+            <item name="NickName" type_name="gh_string" type_code="10">L.F.P</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">25c1b902-8ee0-4ae1-869a-bf422e565afb</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>4316</X>
+                  <Y>992</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>4332</X>
+                  <Y>1002</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="2">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Controls the spray settings for the walls</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">68ad2a08-3d10-4672-9b79-9d0320cb49b7</item>
+            <item name="Name" type_name="gh_string" type_code="10">Wall settings</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Wall</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">03ded01b-55a5-4987-b604-b58229fb7139</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>4316</X>
+                  <Y>1012</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>4332</X>
+                  <Y>1022</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="3">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Controls the spray settings for the infills</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">4e79a10d-5bf4-4adc-a66d-4c57003e6c7f</item>
+            <item name="Name" type_name="gh_string" type_code="10">Infill settings</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Infill</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">03ded01b-55a5-4987-b604-b58229fb7139</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>4316</X>
+                  <Y>1032</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>4332</X>
+                  <Y>1042</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="4">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">User defined layer heights for each corss-section from bottom to top. If the number of values provided in the list are not enough to reach the object height , the layer height for other cross sections are calculated automatically based on the standard layer height and overlap amount.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">3ab8c8dc-1f3b-4afb-afaa-c488a4e29501</item>
+            <item name="Name" type_name="gh_string" type_code="10">Layer heights</item>
+            <item name="NickName" type_name="gh_string" type_code="10">L.H.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>4316</X>
+                  <Y>1052</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>4332</X>
+                  <Y>1062</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="5">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Defines a printing pattern and the way it changes during the printing.</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">54849ab0-5ffa-4e0b-b2a5-371cb69eb711</item>
+            <item name="Name" type_name="gh_string" type_code="10">Printing Pattern</item>
+            <item name="NickName" type_name="gh_string" type_code="10">P.P.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">3872b556-f347-413a-9399-9b933bf73c0c</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>4316</X>
+                  <Y>1072</Y>
+                  <W>29</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>4332</X>
+                  <Y>1082</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Proides information to perform a single layer shotcrete</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">5e31ea35-e42f-432c-ab5c-64a6a0d02a55</item>
+            <item name="Name" type_name="gh_string" type_code="10">Cross Section</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C.S.</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>4375</X>
+                  <Y>972</Y>
+                  <W>27</W>
+                  <H>120</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>4388.5</X>
+                  <Y>1032</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

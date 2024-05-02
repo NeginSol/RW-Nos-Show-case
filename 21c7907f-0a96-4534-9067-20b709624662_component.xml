@@ -1,0 +1,88 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">10434a15-da85-4281-bb64-a2b3a995b9c6</item>
+    <item name="Name" type_name="gh_string" type_code="10">Solid Union</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Perform a solid union on a set of Breps.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">21c7907f-0a96-4534-9067-20b709624662</item>
+        <item name="Name" type_name="gh_string" type_code="10">Solid Union</item>
+        <item name="NickName" type_name="gh_string" type_code="10">SUnion</item>
+      </items>
+      <chunks count="3">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>9143</X>
+              <Y>8896</Y>
+              <W>64</W>
+              <H>60</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>9173</X>
+              <Y>8926</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Breps to union</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">73d379a4-686b-4e0c-8ce8-1eeef07e390a</item>
+            <item name="Name" type_name="gh_string" type_code="10">Breps</item>
+            <item name="NickName" type_name="gh_string" type_code="10">B</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">b81d3eec-53c1-4471-8029-66e5c383f1a8</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>9145</X>
+                  <Y>8898</Y>
+                  <W>13</W>
+                  <H>56</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>9153</X>
+                  <Y>8926</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Union result</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">53d632b4-fb73-4773-9cd9-c147e312633b</item>
+            <item name="Name" type_name="gh_string" type_code="10">Result</item>
+            <item name="NickName" type_name="gh_string" type_code="10">R</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>9188</X>
+                  <Y>8898</Y>
+                  <W>17</W>
+                  <H>56</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>9196.5</X>
+                  <Y>8926</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
