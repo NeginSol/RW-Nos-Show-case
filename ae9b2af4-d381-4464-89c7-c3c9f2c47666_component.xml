@@ -41,9 +41,12 @@
               </items>
               <chunks count="1">
                 <chunk name="Item" index="0">
-                  <items count="2">
+                  <items count="3">
                     <item name="EdgeIndex" type_name="gh_int32" type_code="3">-1</item>
-                    <item name="RefID" type_name="gh_guid" type_code="9">22072110-b10e-4401-9b7a-4c8e4fb2aa30</item>
+                    <item name="ON_Data" type_name="gh_bytearray" type_code="20">
+                      <stream length="340">Y2BkYGD4DwQgGgR4mIBEeFBGZl6+c35ubn6ejkJYalFxZn6erbmesZmekbGxiZmeoZmxqaGOgnNpTklpUaptXmppSVFijo5CQGlSTmayd2plSH52ap6tqamRkYVhqqV5srmpqamxASvIFhmw4Xruqfm5qSVFlXoB+TmVOZl5qc6lRWWpLEAF7GUQC7kSi5IzMstSjVNyOfMLUvPySouSillSEksSQYo4ODiYQG4VUGdgMALS+zn5eTiZgQx+EPEViJl+1TMxvIT66/d/JgYRKPvZlet+7i8vC+5/yiDQzKj0wW/O7tt/gPIbofICrCBy0syNfQ6KDrsTT0jNPdB8IKS6IWQNR6bD5jlLhEx29+MUP+R69BYrb4kDTBxmDi5xdHNYGRAg2+zedcOyfoeWuSwfVsyb5xB75+fbBzrLofx1DiCfFuXPe/S/nqkBpoebgRQAAA==</stream>
+                    </item>
+                    <item name="RefID" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
                   </items>
                 </chunk>
               </chunks>
