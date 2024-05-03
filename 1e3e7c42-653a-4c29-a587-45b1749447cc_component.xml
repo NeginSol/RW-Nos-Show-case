@@ -17,9 +17,9 @@
         <chunk name="Attributes">
           <items count="2">
             <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-              <X>6482</X>
+              <X>6466</X>
               <Y>1297</Y>
-              <W>93</W>
+              <W>109</W>
               <H>144</H>
             </item>
             <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -43,9 +43,9 @@
             <chunk name="Attributes">
               <items count="2">
                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                  <X>6484</X>
+                  <X>6468</X>
                   <Y>1299</Y>
-                  <W>32</W>
+                  <W>48</W>
                   <H>20</H>
                 </item>
                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -57,23 +57,25 @@
           </chunks>
         </chunk>
         <chunk name="param_input" index="1">
-          <items count="8">
+          <items count="10">
             <item name="Access" type_name="gh_int32" type_code="3">1</item>
             <item name="Description" type_name="gh_string" type_code="10">Borders to be added to voxel space.</item>
             <item name="InstanceGuid" type_name="gh_guid" type_code="9">ed229a76-a92b-4445-903e-17a352d93afc</item>
+            <item name="Mapping" type_name="gh_int32" type_code="3">1</item>
             <item name="Name" type_name="gh_string" type_code="10">Borders</item>
             <item name="NickName" type_name="gh_string" type_code="10">Br.</item>
             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
             <item name="Source" index="0" type_name="gh_guid" type_code="9">7f9a7c8b-cb92-4f85-9a7a-39a2efb8607a</item>
-            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+            <item name="Source" index="1" type_name="gh_guid" type_code="9">ae9b2af4-d381-4464-89c7-c3c9f2c47666</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">2</item>
           </items>
           <chunks count="1">
             <chunk name="Attributes">
               <items count="2">
                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                  <X>6484</X>
+                  <X>6468</X>
                   <Y>1319</Y>
-                  <W>32</W>
+                  <W>48</W>
                   <H>20</H>
                 </item>
                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -98,9 +100,9 @@
             <chunk name="Attributes">
               <items count="2">
                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                  <X>6484</X>
+                  <X>6468</X>
                   <Y>1339</Y>
-                  <W>32</W>
+                  <W>48</W>
                   <H>20</H>
                 </item>
                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -145,9 +147,9 @@
             <chunk name="Attributes">
               <items count="2">
                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                  <X>6484</X>
+                  <X>6468</X>
                   <Y>1359</Y>
-                  <W>32</W>
+                  <W>48</W>
                   <H>20</H>
                 </item>
                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -192,9 +194,9 @@
             <chunk name="Attributes">
               <items count="2">
                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                  <X>6484</X>
+                  <X>6468</X>
                   <Y>1379</Y>
-                  <W>32</W>
+                  <W>48</W>
                   <H>20</H>
                 </item>
                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -239,9 +241,9 @@
             <chunk name="Attributes">
               <items count="2">
                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                  <X>6484</X>
+                  <X>6468</X>
                   <Y>1399</Y>
-                  <W>32</W>
+                  <W>48</W>
                   <H>20</H>
                 </item>
                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -285,9 +287,9 @@
             <chunk name="Attributes">
               <items count="2">
                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                  <X>6484</X>
+                  <X>6468</X>
                   <Y>1419</Y>
-                  <W>32</W>
+                  <W>48</W>
                   <H>20</H>
                 </item>
                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">

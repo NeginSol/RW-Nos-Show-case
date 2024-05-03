@@ -6,8 +6,9 @@
   </items>
   <chunks count="1">
     <chunk name="Container">
-      <items count="4">
+      <items count="5">
         <item name="Description" type_name="gh_string" type_code="10">Create tool path from set of commands</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
         <item name="InstanceGuid" type_name="gh_guid" type_code="9">32ef5b5d-4572-4853-ae8d-0264fb06a740</item>
         <item name="Name" type_name="gh_string" type_code="10">Tool Path</item>
         <item name="NickName" type_name="gh_string" type_code="10">TP</item>

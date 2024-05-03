@@ -5,9 +5,8 @@
   </items>
   <chunks count="1">
     <chunk name="Container">
-      <items count="9">
+      <items count="8">
         <item name="Description" type_name="gh_string" type_code="10">Contains a collection of boxes</item>
-        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
         <item name="InstanceGuid" type_name="gh_guid" type_code="9">a8dceb23-5e05-46e0-a3f0-03ffce2065aa</item>
         <item name="Mapping" type_name="gh_int32" type_code="3">1</item>
         <item name="Name" type_name="gh_string" type_code="10">Box</item>

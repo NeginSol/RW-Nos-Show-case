@@ -6,8 +6,9 @@
   </items>
   <chunks count="1">
     <chunk name="Container">
-      <items count="6">
+      <items count="7">
         <item name="Description" type_name="gh_string" type_code="10">Simulation of the tool path</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
         <item name="InstanceGuid" type_name="gh_guid" type_code="9">68606070-1531-4044-bfca-1f5c27d525b6</item>
         <item name="Name" type_name="gh_string" type_code="10">Tool Path Simulation</item>
         <item name="NickName" type_name="gh_string" type_code="10">TPS</item>
